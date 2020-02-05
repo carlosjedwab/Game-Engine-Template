@@ -14,4 +14,8 @@ With SFML installed, run the run.py script to open the game.
 - Utilities: It contains some useful functions;
 - Entity_: It's a template for entity classes such as Player, Enemy, Background...<br/>
 (instructions on how to use Entity_ to generate a new entity class can be found at the beginning of Entity_.h)
+
+# How to use
+Use the Entity_.h and Entity_.cpp files as models for your enty classes, such as Player, Enemy, Background...<br/>
+Don't forget to add the new class name to the run.py and change the #include and entities declaration at Game.h.
  

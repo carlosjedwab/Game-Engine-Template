@@ -18,4 +18,6 @@ With SFML installed, run the run.py script to open the game.
 # How to use
 Use the Entity_.h and Entity_.cpp files as models for your enty classes, such as Player, Enemy, Background...<br/>
 Don't forget to add the new class name to the run.py and change the #include and entities declaration at Game.h.
+
+The game logic is build inside the 'update' functions at each entity class. Feel free to add new functions directly at the class file or at the utilities file (utilities functions are those who are shared between entities, thta is, they are not specific to any single entity). New variables that are not specific to any single entity can be stored at the global file, with it's respective 'get' and 'set' functions (an example would be screen related variables).
  

@@ -13,5 +13,6 @@ With SFML installed, run the run.py script to open the game.
 - Global: It stores globaly used variables and constants for easy access.
 - Utilities: It contains some useful functions;
 - Entity_: It's a template for entity classes such as Player, Enemy, Background...
+
 (instructions on how to use Entity_ to generate a new entity class can be found at the beginning of Entity_.h)
  
